@@ -1,0 +1,7 @@
+#coding:utf8
+"""
+非机密性配置
+"""
+RECENT_BOOK_COUNT = 30
+PER_PAGE = 15
+BEANS_UPLOAD_ONE_BOOK = 0.5

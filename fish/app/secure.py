@@ -1,0 +1,19 @@
+#coding:utf8
+"""
+机密性配置
+"""
+DEBUG = True
+SQLALCHEMY_DATABASE_URI = "mysql+cymysql://root:123456@127.0.0.1:3306/spare_book1"
+SECRET_KEY = 'JJSAHFJHNAJKNFJANKSJFJANKNCSKJACJNAKMDLOEJTIHRNHBN'
+
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+
+
+## Email 配置
+MAIL_SERVER = 'smtp.qq.com'
+MAIL_PORT = 465
+MAIL_USE_TLS = False
+MAIL_USE_SSL = True
+MAIL_USERNAME = '1421841934@qq.com'
+MAIL_PASSWORD = 'qxiyekfidisnhbhe'
+
